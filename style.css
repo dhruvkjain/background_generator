@@ -1,0 +1,29 @@
+body
+{
+	text-align: center;
+	background:linear-gradient(to right, lightblue , lightgreen);
+	color:rgb(87, 76, 76);
+	font-family: montserrat , sans-serif;
+}
+h1
+{
+	text-transform: uppercase;
+}
+button
+{
+	border-radius: 4px;
+	width: 120px;
+	font-weight: 700;
+    cursor: pointer;
+	color: white;
+	border:0;
+	border-radius: 5px;
+	padding: 12px 10px;
+	background: linear-gradient(to right, hotpink 50%,darkviolet 50%);
+	background-size: 200%; /*put this line to comment to understand*/
+	transition: 0.5s ease-out;
+}
+button:hover
+{
+	background-position: right;/*by deafult left*/
+}
